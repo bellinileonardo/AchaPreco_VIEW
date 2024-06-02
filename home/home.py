@@ -86,7 +86,7 @@ def mkt_imgs():
 
 
 @st.cache_data
-def consulta_preco(self):
+def consulta_preco():
     # Consulta EAN no Banco de Dados do Cliente
     busca_ean = """
         SELECT 
